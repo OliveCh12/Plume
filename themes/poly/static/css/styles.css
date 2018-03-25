@@ -1,0 +1,47 @@
+body {
+  background-color: #f7f7f7 !important;
+}
+.site-hero {
+  background-color: #ffd60a;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+h2 {
+  font-weight: bolder !important;
+}
+p {
+  opacity: 0, 7;
+}
+a:hover{
+  opacity: 0.5;
+}
+/* --- Section style ---*/
+section {
+  margin-bottom: 3vmin !important;
+}
+/* --- Article style ---*/
+.site-hero-article{
+  background-color: #ffd60a;
+  height: 300px;
+}
+.list-article{
+  margin-bottom: 30px;
+}
+.single-article{
+  margin-top: -300px;
+  margin-bottom: 30px;
+}
+/* --- Footer style ---*/
+footer {
+  padding-top: 30px;
+}
+.footer-list {
+  margin-top: 30px;
+  line-height: 25pt;
+}
+.footer-mentions {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

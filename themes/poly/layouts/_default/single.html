@@ -1,0 +1,19 @@
+{{partial "header" .}}
+<section class="site-hero-article">
+
+</section>
+<article class="single-article">
+  <div class="padded-content">
+    <div class="ff-card padding-huge shape-rounded bg-white shadow-hard">
+      <a href="{{ .Site.BaseURL }}">
+        <i class="fas fa-arrow-circle-left fa-3x"></i>
+      </a>
+      <h5 class="text-center no-margin-bottom">{{ .Title }}</h5>
+      <p class="text-center no-margin-top">Actress</p>
+      {{ .Content }}
+      <span class="text-grey-40 text-centre"><strong>Publish Date : </strong>{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+    </div>
+  </div>
+</article>
+
+{{partial "footer" .}}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Site.Title }}</title>
+  <base href="{{ .Site.BaseURL }}">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fictoan-master/dist/fictoan.css" type="text/css">
+</head>
+<body>
+<header class="ff-header bg-grey-10 padded-content">
+    <div id="header-logo">
+      <a href="{{ .Site.BaseURL }}"><img class="icon-small" src="https://sujan-s.github.io/fictoan/docs/images/fictoan-logo.svg"></a>
+    </div>
+
+    <label for="menu-toggle" class="links-toggle">
+        <i class="fas fa-bars fa-xs text-yellow"></i>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <nav class="header-links">
+        <ul>
+            <li class="nav-item">
+                <a>Publish</a>
+            </li>
+            <li class="nav-item">
+                <a>News</a>
+            </li>
+            <li class="nav-item">
+                <a>Carriers</a>
+            </li>
+            <li class="nav-item">
+                <a>About</a>
+            </li>
+            <li class="nav-item">
+                <a class="ff-button shape-rounded shadow-hard bg-yellow text-white">Discover</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>

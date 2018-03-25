@@ -1,0 +1,19 @@
+<section class="site-features">
+  <div class="padded-content">
+    <h3 class="no-margin-bottom">Trending Articles</h3>
+    <p>Voici les 10 premiers articles à la une</p>
+    <div class="row">
+    {{ range .Data.Pages.ByPublishDate }}
+    <article class="list-article">
+      <div class="ff-card shape-rounded bg-white shadow-mild padding-medium">
+        <h5 class="text-left no-margin-bottom">{{ .Title }}</h5>
+        <p class="text-left no-margin-top">Franchement, c'est vrai</p>
+        <p class="text-right no-margin-top"></p>
+        <p>{{.Summary}}</p>
+        <a class="ff-button shape-curved bg-yellow text-black" href="{{ .Permalink }}">Read More</a>
+        <span class="text-grey-60"><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
